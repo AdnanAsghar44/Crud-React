@@ -23,11 +23,12 @@ function Read() {
     }
 
 
-    function setDataToStorage(id, name, age, email) {
+    function setDataToStorage(id, name, age, email, country) {
         localStorage.setItem('id', id);
         localStorage.setItem('name', name);
         localStorage.setItem('age', age);
         localStorage.setItem('email', email);
+        localStorage.setItem('country', country);
     }
 
 
